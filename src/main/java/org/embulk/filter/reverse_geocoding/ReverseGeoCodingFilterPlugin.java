@@ -129,11 +129,11 @@ public class ReverseGeoCodingFilterPlugin
                             }
                         }
                         else if (Types.DOUBLE.equals(type)) {
-//                            builder.setDouble(idx, GeoCodeMap.convert2LatLon(hash));
+                            builder.setDouble(idx, GeoCodeMap.convert2LatLon(hash));
                         }
                     }
 
-                    //visitcolumns
+                    //visited columns
                     builder.addRecord();
                 }
             }
